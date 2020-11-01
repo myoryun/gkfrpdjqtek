@@ -9,3 +9,8 @@ li{
    color:gray;
   
 }
+footer{
+            border-top: 1px solid gray; 
+            padding: 20px;
+            text-align: center; 
+        }

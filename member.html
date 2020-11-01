@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>member</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+        }
+        h1{
+            font-size: 3rem;
+            display: inline;
+            padding: 10px;
+        }
+        h2{
+            border: 1px solid gray;
+            padding: 100px;
+            font-size: 2rem;
+        }
+        p{
+            padding: 20px;
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding: 20px;
+        }
+        nav{
+            margin-left: 50px;
+            border-left: 1px solid gray;
+            flex-basis: 100px;
+            flex-shrink:0;
+        }
+        #가영{
+            display: flex;
+        }
+        #묘륜{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        .section{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            
+        }
+        aside{
+            display: inline;
+            font-size: 0.8rem;
+        }
+
+    
+    </style>
+    
+</head>
+<body>
+   <div class="container">
+    <header>
+        <h1>members</h1>
+        <aside>할게없다 멤버 입니다.</aside>
+    </header>
+    <section class="section">
+       
+        <nav>
+          <ul>
+              <li><a href="do_nothing_home.html">main</a></li>
+              <li><a href="member.html">members</a></li>
+              <li><a href="gayoung.html">가영</a></li>
+              <li><a href="youtube.html">youtube</a></li>
+              <li><a href="nothing.html">기타</a></li>
+          </ul>          
+        </nav>
+        <main class="main">
+            <div id="가영">
+                <h2>가영</h2>
+                <p>이건 가영이 설명. 가영아 여기에 뭐 널까?</p>
+            </div>
+            <div id="묘륜">
+                <h2>묘륜</h2>
+                <p>이건 묘륜이 설명.</p>
+            </div>
+        </main>
+    </section>
+    <footer><a href="do_nothing_home.html">홈 나중에 아이콘 추가.</a></footer>
+    </div>
+</body>
+</html>
